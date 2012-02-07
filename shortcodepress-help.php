@@ -41,9 +41,9 @@ Shortcode Press available codes to use on your post or page. Click on any of the
 </p>
 <br /><br />
 
-<p><?php _e('For more information on how this plugin works, go to', 'shortcodepress'); ?> <a href="http://www.shortcodepress.com/forum/">Contact</a>.</p>
+<p><?php _e('For more information on how this plugin works, go to', 'shortcodepress'); ?> <a href="http://www.shortcodepress.com/forums/">Contact</a>.</p>
 
-<p><?php _e('Please report bugs to', 'shortcodepress'); ?> <a href="http://www.shortcodepress.com/forum/">Shortcode Press Forum</a>.</p>
+<p><?php _e('Please report bugs to', 'shortcodepress'); ?> <a href="http://www.shortcodepress.com/forums/">Shortcode Press Forum</a>.</p>
 <br /><br />
 <p><center>
     <form name="_xclick" action="https://www.paypal.com/us/cgi-bin/webscr" method="post">
