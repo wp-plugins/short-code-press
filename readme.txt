@@ -3,7 +3,7 @@ Contributors: shaid
 Donate link: https://www.paypal.com/us/cgi-bin/webscr?cmd=_flow&SESSION=lhIb-xjg_xlgTVK_H3uQGB_UKmtkGoTcB6_Wi8XWIw470tgfIZ7JNu47VUa&dispatch=50a222a57771920b6a3d7b606239e4d529b525e0b7e69bf0224adecfb0124e9b61f737ba21b081982c6ea0c3af0b8ad315dd45f3fe2ad43b
 Tags: shortcodes, short codes, wordpress shortcode, buttons, message boxes, video embed, youtube video, vimeo video, highlight text
 Requires at least 2.8
-Tested up to 3.2.1
+Tested up to 3.3.1
 Stable tag: 1.0
 
 Shortcode press is fast and easiest way for use shortcodes within post or page content to show styled box, button,highlight text and video embed from youtube.com, vimeo.com.
