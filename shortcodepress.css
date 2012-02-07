@@ -1,0 +1,198 @@
+a.sort {
+	color: #d7d7d7;
+}
+
+/**
+***    ADD CONTENT
+**/
+
+input.create {
+	width: 97%;
+}
+tr.title {
+	background: #eeeeee;
+}
+label.create {
+	 font-weight: bold;
+}
+
+
+/**
+***    POSITIONS
+**/
+.positionKey {
+	width: 25%;
+}
+.templatePositions thead th {	
+	padding: 10px;
+}
+.templateFunctions {
+	width: 25%;	
+}
+.templatePositionsDescription {
+	width: 25%;
+}
+.templatePositionsActions {
+	width: 25%;
+}
+
+
+/**
+***   The tabs at the top.
+**/
+.tabs
+{
+	margin: 0;
+	padding: 0 0 0 0;
+	list-style: none;
+	overflow: hidden;
+	background: #eeeeee;
+}
+
+.tabs li
+{
+	float: left;
+	white-space: nowrap;
+	margin: 0;
+}
+
+.tabs li a
+{
+	border: 1px solid #dedede;
+	border-top: none;
+	padding: 6px;
+	display: block;
+	background: #eeeeee;
+	text-decoration: none;
+}
+
+	.tabs li a:hover 
+	{
+		border: 1px solid #bbb;
+		border-top: none;
+	}
+
+.tabs li a.tabs-current
+{
+	background: #fff;
+	border: none;
+	color: #D54E21;
+	border-bottom: 1px solid #fff;
+}
+
+div th a {
+    /*  font-size: 12px; */
+    color: #d7d7d7;
+}
+    /* Tooltip */
+
+#tooltip {
+    position:absolute;
+    z-index:30000;
+    padding:3px;
+    background:#363636;
+    color:#FFF!important;
+    font-size:0.9em;
+}
+
+#tooltip div {
+    margin:0;
+    background:#808080;
+    padding:5px;
+    font-size:0.9em;
+}
+
+#tooltip h3 {
+    color:#fff;
+    font-weight:bold;
+    padding:5px;
+    margin:0;
+    background:#5f5f5f;
+}
+.block {width:80px; padding-bottom:30px;}
+    .block h2 {margin:0; padding:10px 0 0 15px;font-size:16px;}
+    p { margin:0 auto;}
+    .effect {border:3px solid #666; -moz-box-shadow: 0px 0px 3px #333; -webkit-box-shadow: 3px 3px 3px #333; -moz-border-radius: 15px; -webkit-border-radius: 15px; background: -moz-linear-gradient(center bottom , #CACACA 9%, #ECECEC 92%) repeat scroll 0 0 transparent; background: -webkit-gradient(linear, left bottom, left top, color-stop(0.09, rgb(202,202,202)), color-stop(0.92, rgb(236,236,236)))}
+
+ul#scp_container,.scp_container ul{list-style-type: none;margin:0;padding:0;}
+#scp_container li {
+    
+    float:left;
+    border: 4px solid #FFFFFF;
+    margin:4px;
+    list-style-type: none;
+    display: inline-block;
+    width: 100px;
+
+}
+#scp_container li,#tooltip {
+    border-radius: 3px 3px 3px 3px;
+}
+.scp_container ul li{list-style-type: none;margin:0;padding:0;width:100%;border-bottom:1px solid #fff;}
+.scp_container ul li label{width:20%;text-align:left;display: inline-block;
+  line-height: 1.8;
+  vertical-align:middle;}
+.scp-item {
+    min-height: 80px;
+    height: auto !important; /* Compliant browsers use the min-height and stop here since they recognize the !important */
+    height: 80px; /* IE ignores the !important and moves on to the height. Since it resizes containers even if a height is specified (unless you set the overflow to scroll, hidden, etc), this is a handy workaround */
+    
+}
+.scoption{display:block;width:100%;height:80px;text-decoration:none;}
+.scp-item a.block_box {
+    background-image: url("images/box_ico.png");
+}
+.scp-item a.block_button {
+    background-image: url("images/buttonbar.png");
+}
+.scp-item a.block_bubble {
+    background-image: url("images/speech-bubble-add.png");
+}
+.scp-item a.block_notify {
+    background-image: url("images/notify.png");
+}
+.scp-item a.block_tip {
+    background-image: url("images/tooltip.png");
+}
+.scp-item a.block_video {
+    background-image: url("images/video.png");
+}
+.scp-item a.block_highlight {
+    background-image: url("images/highlight.png");
+}
+.scp-item a.block_gallery {
+    background-image: url("images/gallery.png");
+}
+ul li.scp-item a {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #F3F3F3;
+    border-color: #DCDFE3 #D0D4D8 #D0D4D8 #DCDFE3;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666;
+}
+ul li.scp-item a {
+    background-position: 50% 5px;
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    padding: 70px 0 0;
+    text-align: center;
+    width: 98px;
+}
+ul li.scp-item a {
+    border-radius: 3px 3px 3px 3px;
+}
+ul .scp-item a:hover {
+    background-color:#e4e7ea;
+    border-color:#c3c9ce;
+    color:#333;
+}
+
+ul.scp-item li a:active {
+    border-color:#9d9d9d;
+}
