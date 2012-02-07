@@ -9,14 +9,14 @@ Stable tag: 1.0
 Shortcode press is fast and easiest way for use shortcodes within post or page content to show styled box, button,highlight text and video embed from youtube.com, vimeo.com.
 
 == Description ==
-Using Shortcode Press, this plugin will allow you to easily insert message boxes, buttons, video and hghlighted text into your WordPress posts and pages. You will find a tinymce Button on editor to use options, there are many configurations. All buttons, boxes, text highlighter include multiple color and size options. For button here lots of icons to choose to fill your desire. For example, there is an down arrow icon that works great for download buttons, an tick icon for accpetance, info icon for define information, etc. You don't have to remember the shortcodes, can easily insert them from editor where a tinymce button extended for it. 
+Using Shortcode Press, this plugin will allow you to easily insert message boxes, buttons, video and highlighted text into your WordPress posts and pages. You will find a tinymce Button on editor to use options, there are many configurations. All buttons, boxes, text highlighter include multiple color and size options. For button here lots of icons to choose to fill your desire. For example, there is an down arrow icon that works great for download buttons, an tick icon for acceptance, info icon for define information, etc. You don't have to remember the shortcodes, can easily insert them from editor where a tinymce button extended for it. 
 
 Available Shortcodes
 <ul>
 <li>Box - css3 styled box</li>
 <li>Button - css3 button</li>
 <li>Video - Embed video from youtube.com, vimeo.com by providing video url</li>
-<li>Highlight Text - css styled highlght text</li>
+<li>Highlight Text - css styled highlight text</li>
 </ul>
 == Installation ==
 
