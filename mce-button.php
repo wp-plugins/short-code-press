@@ -13,7 +13,7 @@ function wpsb_tinyplugin_add_button($buttons)
 
 function wpsb_tinyplugin_register($plugin_array)
 {
-    $url = plugins_url("/shortcodepress/js/ext/editor_plugin.js");
+    $url = plugins_url("/short-code-press/js/ext/editor_plugin.js");
 
     $plugin_array['wpsb_tinyplugin'] = $url;
     return $plugin_array;
