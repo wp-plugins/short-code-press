@@ -37,9 +37,9 @@ add_action('admin_menu', 'scode_plugin_menu');
 
 function scode_plugin_menu() {
 
-$scode_db_version = "1.0";
+$scode_db_version = "1.0.1";
 $installed_ver = get_option( "scode_db_version" );
-if( $installed_ver != $scode_db_version ) {
+if( $installed_ver != '' ) {
 //register_activation_hook(__FILE__,'jal_install');
 global $wpdb;
 //   global $jal_db_version;
