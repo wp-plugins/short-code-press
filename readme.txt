@@ -1,6 +1,6 @@
 === Shortcode Press ===
 Contributors: shaid
-Donate link: https://www.shortcodepress.com/
+Donate link: http://www.shortcodepress.com/
 Tags: shortcodes, short codes, wordpress shortcode, buttons, message boxes, video embed, youtube video, vimeo video, highlight text
 Requires at least 2.8
 Tested up to 3.3.1
