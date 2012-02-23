@@ -23,7 +23,10 @@
     float: right;
     margin-left: 10px!important;
 }
-.scp_after    {
+.scp_btn_after    {
+    clear:both;
+}
+.scp_btn_after    {
     clear:both;
     text-align:center;
 }
