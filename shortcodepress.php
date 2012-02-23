@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ShortCode Press
-Version: 1.0.1
+Version: 1.0.2
 Plugin URI: http://www.shortcodepress.com
 Author URI: http://www.shortcodepress.com
 Description:  insert custom shortcodes to your post or pages fast and easy way.
