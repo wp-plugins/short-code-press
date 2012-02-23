@@ -23,6 +23,10 @@
     float: right;
     margin-left: 10px!important;
 }
+.scp_after    {
+    clear:both;
+    text-align:center;
+}
 /**********************
 * box colors *
 ***********************/
@@ -384,7 +388,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .scp_button{
 background: #222  url(images/alert-overlay.png) repeat-x;
 display: inline-block;
-margin: 0 1em 1em 13px;
+/*margin: 0 1em 1em 13px;*/
 padding: 8px 10px 9px 10px;
 color: #fff;
 text-decoration: none;
