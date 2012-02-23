@@ -71,7 +71,7 @@ if($_GET[shortcode]=='box'){
     
    </ul>        
    <ul >
-    <li  class="width"><label>Width:</label><input id="boxwidth" type="text" name="boxwidth" value="">
+    <li  class="width"><label>Width:</label><input id="boxwidth" type="text" name="boxwidth" value=""> px
     <br /><label></label>width is numerical digits. ex 200, 250, 300, 400</li>
     
    </ul>
@@ -142,10 +142,10 @@ if($_GET[shortcode]=='box'){
     <br /><label></label>Youtube, vimeo, dailymotion video supported.</li>
    </ul>
    <ul>
-    <li  class="align"><label>Player Width : </label><input type="text" name="width" id="width" value=""></li>
+    <li  class="align"><label>Player Width : </label><input type="text" name="width" id="width" value=""> px</li>
    </ul> 
    <ul>
-    <li  class="align"><label>Player Height :</label><input type="text" name="height" id="height" value=""></li>
+    <li  class="align"><label>Player Height :</label><input type="text" name="height" id="height" value=""> px</li>
    </ul>     
    <ul >
     <li  class="align"><label>Align : </label><select id="balign">
