@@ -119,7 +119,7 @@ if($_GET[shortcode]=='box'){
         ?></select></li>
    </ul>
    <ul >
-    <li  class="align"><label>Align :<label><select id="balign">
+    <li  class="align"><label>Align :</label><select id="balign">
     <?php echo $sc_align;?>
     </select></li>
     
