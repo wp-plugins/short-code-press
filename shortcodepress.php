@@ -7,11 +7,11 @@ Author URI: http://www.shortcodepress.com
 Description:  insert custom shortcodes to your post or pages fast and easy way.
 Author: shaid
 
-	USAGE:
+    USAGE:
 
-	See the Help tab in Manage -> shortcodepress.
+    See the Help tab in Manage -> shortcodepress.
 
-	LICENCE:
+    LICENCE:
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -46,17 +46,17 @@ global $wpdb;
    $table_name = $wpdb->prefix . "scodes";
    //if($wpdb->get_var("show tables like '$table_name'") != $table_name) {
      require_once(ABSPATH . 'wp-admin/includes/upgrade.php'); 
-	  $scode_table_sql = "CREATE TABLE " . $table_name . " (".
+      $scode_table_sql = "CREATE TABLE " . $table_name . " (".
                 "scode_id INT(20)  NOT NULL AUTO_INCREMENT, ".
                 "scode_title varchar(255), ".
                 "scode_code  varchar(255), ".
-				"scode_description text, ".
-				"scode_date  datetime, ".
+                "scode_description text, ".
+                "scode_date  datetime, ".
                 "PRIMARY KEY (scode_id))";
-				//echo $scode_table_sql;
+                //echo $scode_table_sql;
         maybe_create_table($table_name, $scode_table_sql);
-	  
-     //$sql = "alter TABLE " . $table_name . " 	  add advert INT(1) NOT NULL	";
+      
+     //$sql = "alter TABLE " . $table_name . "       add advert INT(1) NOT NULL    ";
       //require_once(ABSPATH . 'wp-admin/includes/upgrade.php');
       //@mysql_query($sql);
 
@@ -79,32 +79,32 @@ $scp_button_tpls = array("accept"=>"Accept","add"=>"Add","anchor"=>"Anchor","can
 //add_option("scp_color",array("blue"=>"blue","red"=>"red","magenta"=>"magenta","orange"=>"orange","yellow"=>"yellow","black"=>"black"));
 
 /*
-	// Default tab is 'content'
+    // Default tab is 'content'
     $tab =  ($_GET['tab']) ? $_GET['tab'] : 'content'; 
 
-	$content = get_post_meta(get_option('scodemanage_post_id'), 'scodemanage_content', true);
-	$positions = get_post_meta(get_option('scodemanage_post_id'), 'scodemanage_positions', true);
+    $content = get_post_meta(get_option('scodemanage_post_id'), 'scodemanage_content', true);
+    $positions = get_post_meta(get_option('scodemanage_post_id'), 'scodemanage_positions', true);
 
-	// Cannot show 'Content' if there ain't any
-	//if ($tab == 'content' && (!is_array($content) || empty($content))) $tab = 'upload';
+    // Cannot show 'Content' if there ain't any
+    //if ($tab == 'content' && (!is_array($content) || empty($content))) $tab = 'upload';
 
-	// Cannot show 'Create' if there are no position
-	//if ($tab == 'upload' && (!is_array($positions) || empty($positions) ) ) $tab = 'positions';
+    // Cannot show 'Create' if there are no position
+    //if ($tab == 'upload' && (!is_array($positions) || empty($positions) ) ) $tab = 'positions';
 
-	// If we're not installed, go to the settings for the setup.
-	//if (!scodemanage_ok_to_go() && $tab != 'help') $tab = 'settings';
+    // If we're not installed, go to the settings for the setup.
+    //if (!scodemanage_ok_to_go() && $tab != 'help') $tab = 'settings';
 
-	$_GET['tab'] = $tab;
+    $_GET['tab'] = $tab;
 
-	if ($_GET['tab'] == 'upload') {
-		wp_enqueue_script('page');
-		wp_enqueue_script('editor');
+    if ($_GET['tab'] == 'upload') {
+        wp_enqueue_script('page');
+        wp_enqueue_script('editor');
         add_thickbox();
-		wp_enqueue_script('media-upload');
-		wp_enqueue_script('controls');
-	}
-	
-	*/
+        wp_enqueue_script('media-upload');
+        wp_enqueue_script('controls');
+    }
+    
+    */
 
 function scp_colors($colors){
         $sc_color='';
@@ -151,16 +151,16 @@ function shortcodeoptions(){
     }
     
 }
-	
+    
 function scode_load_scripts () {
-	if (ereg('page\=shortcodepress', $_SERVER['REQUEST_URI'])) {
-	
-		?>
- 		<link rel='stylesheet' href="<?php echo get_option('siteurl') . '/' . PLUGINDIR . '/' . dirname(plugin_basename (__FILE__)); ?>/shortcodepress.css" type='text/css' />
-		
-		<?php
+    if (ereg('page\=shortcodepress', $_SERVER['REQUEST_URI'])) {
+    
+        ?>
+         <link rel='stylesheet' href="<?php echo get_option('siteurl') . '/' . PLUGINDIR . '/' . dirname(plugin_basename (__FILE__)); ?>/shortcodepress.css" type='text/css' />
         
-	}
+        <?php
+        
+    }
     else{
         wp_enqueue_script('jquery');
         wp_head();
@@ -179,9 +179,9 @@ function scode_load_scripts () {
 
 <![endif]-->
     <?php }
-}	
+}    
 function scode_pre_queue_scripts () {
-	add_action('admin_head-' . sanitize_title(__('Tools')) . '_page_shortcodepress', 'scode_load_scripts');
+    add_action('admin_head-' . sanitize_title(__('Tools')) . '_page_shortcodepress', 'scode_load_scripts');
 }
 add_action('admin_init' , 'scode_pre_queue_scripts');
 
