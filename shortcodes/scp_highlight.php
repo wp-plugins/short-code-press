@@ -11,7 +11,7 @@ function scp_highlight_shortcode( $atts, $content = null )
 
       if($template!='')$tpl=' drop-shadow '.$template.' '.$color.' ';
       //$content=$text;
-      return '<div class="scp scp_highlight scp_highlight_' . $color . ' scp_' . $align .'">' . $content . '</div>';
+      return '<span class="scp_highlight scp_highlight_' . $color . ' scp_' . $align .'">' . $content . '</span>';
 
 }
 add_shortcode('highlight', 'scp_highlight_shortcode'); 
