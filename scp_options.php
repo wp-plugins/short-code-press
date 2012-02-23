@@ -118,12 +118,12 @@ if($_GET[shortcode]=='box'){
             echo $sc_color;
         ?></select></li>
    </ul>
-   <!--<ul >
+   <ul >
     <li  class="align">Align : <select id="balign">
     <?php echo $sc_align;?>
     </select></li>
     
-   </ul>--->
+   </ul>
    <ul>
     <li  class="align"><label>Text :</label><input type="text" name="text" id="text" value=""></li>
    </ul>   
@@ -186,7 +186,7 @@ if($_GET[shortcode]=='box'){
                     
                     <?php
 if($_GET[shortcode]=='button'){   ?>                   
-                    win.send_to_editor('[button type="'+jQuery('#type').val()+'" url="'+jQuery('#url').val()+'" color="'+jQuery('#btncolor').val()+'"]'+jQuery('#text').val()+'[/button]');
+                    win.send_to_editor('[button type="'+jQuery('#type').val()+'" url="'+jQuery('#url').val()+'" color="'+jQuery('#btncolor').val()+'" align="'+jQuery('#balign').val()+'"]'+jQuery('#text').val()+'[/button]');
                     <?php } ?>
                     <?php
 if($_GET[shortcode]=='box'){   ?>        
