@@ -1,7 +1,7 @@
 === Shortcode Press ===
 Contributors: shaid
 Donate link: http://www.shortcodepress.com/
-Tags: shortcodes, short codes, wordpress shortcode, buttons, message boxes, video embed, youtube video, vimeo video, highlight text
+Tags: shortcodes, short codes, shortcode, wordpress shortcode, buttons, message boxes, video embed, youtube video, vimeo video, highlight text
 Requires at least 2.8
 Tested up to 3.3.1
 Stable tag: 1.0.2
