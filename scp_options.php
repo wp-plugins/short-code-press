@@ -72,7 +72,7 @@ if($_GET[shortcode]=='box'){
    </ul>        
    <ul >
     <li  class="width"><label>Width:</label><input id="boxwidth" type="text" name="boxwidth" value=""> px
-    <br /><label></label>width is numerical digits. ex 200, 250, 300, 400</li>
+    <br /><label></label>width is numerical digits. ex 200, 250, 300, 400</li></li>
     
    </ul>
    <ul >
