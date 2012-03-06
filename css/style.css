@@ -391,24 +391,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .scp_button{
 background: #222  url(images/alert-overlay.png) repeat-x;
 display: inline-block;
-/*margin: 0 1em 1em 13px;*/
+margin: 0 1em 1em 13px;
 padding: 8px 10px 9px 10px;
 color: #fff;
 text-decoration: none;
-font-weight: bold;
+font-weight: normal;
 line-height:1;
 -moz-border-radius: 5px;
 -webkit-border-radius: 5px;
 -moz-box-shadow: 0 1px 3px #999;
 -webkit-box-shadow: 0 1px 3px #999;
 text-shadow: 0 -1px 1px #222;
-border-bottom: 1px solid #222;
+border-bottom: 0px solid #222;
 position: relative;
 cursor: pointer;
-text-decoration: none !important;
+text-decoration: none !important;\
 height: 17px;
 font-size: 16px !important;
 }
+a.scp_button{color:#ffffff; }  
+a.scp_button:link{color:#ffffff; }
+a.scp_button_white{color:#000; }
 
     /* Sizes ---------- */
     .scp_button_small {
@@ -434,7 +437,7 @@ font-size: 16px !important;
     background-color: #e33100;
     }
     .scp_button_green {
-    background-color: #c3fad0;
+    background-color: #1AC115;
     }
     .scp_button_magenta {
     background-color: #a9014b;
@@ -452,12 +455,12 @@ font-size: 16px !important;
     background-color: #333;
     }
     .scp_button_white {
-    background-color: #e1e1e1;
+    background-color: #f2f2f2;
     }
 .scp_button:hover span{ text-decoration: none; }
 .scp_button span{ width: 16px; height: 16px; float: left; margin-right: 5px; }
 .scp_button_accept span{ background: url("images/icons/accept.png") no-repeat top left; }
-.scp_button_add span span{ background: url("images/icons/add.png") no-repeat top left; }
+.scp_button_add span{ background: url("images/icons/add.png") no-repeat top left; }
 .scp_button_anchor span{ background: url("images/icons/anchor.png") no-repeat top left; }
 .scp_button_cancel span{ background: url("images/icons/cancel.png") no-repeat top left; }
 .scp_button_clock span{ background: url("images/icons/clock.png") no-repeat top left; }
@@ -466,7 +469,7 @@ font-size: 16px !important;
 .scp_button_heart span{ background: url("images/icons/heart.png") no-repeat top left; }
 .scp_button_hourglass span{ background: url("images/icons/hourglass.png") no-repeat top left; }
 .scp_button_house span{ background: url("images/icons/house.png") no-repeat top left; }
-.scp_button_information span{ background: url("images/icons/information.png") no-repeat top left; }
+.scp_button_info span{ background: url("images/icons/information.png") no-repeat top left; }
 .scp_button_lightbulb span{ background: url("images/icons/lightbulb.png") no-repeat top left; }
 .scp_button_lightning span{ background: url("images/icons/lightning.png") no-repeat top left; }
 .scp_button_lock span{ background: url("images/icons/lock.png") no-repeat top left; }
@@ -483,7 +486,7 @@ font-size: 16px !important;
 .scp_button_disconnect span{ background: url("images/icons/disconnect.png") no-repeat top left; }
 .scp_button_door span{ background: url("images/icons/door.png") no-repeat top left; }
 .scp_button_download span{ background: url("images/icons/download.png") no-repeat top left; }
-.scp_button_emoticon{ background: url("images/icons/emoticon.png") no-repeat top left; }
+.scp_button_emoticon span{ background: url("images/icons/emoticon.png") no-repeat top left; }
 .scp_button_feed span{ background: url("images/icons/feed.png") no-repeat top left; }
 .scp_button_cart span{ background: url("images/icons/cart.png") no-repeat top left; }
 
