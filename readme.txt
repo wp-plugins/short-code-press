@@ -15,7 +15,7 @@ Available Shortcodes
 <ul>
 <li>Box - css3 styled box</li>
 <li>Button - css3 button</li>
-<li>Video - Embed video from youtube.com, vimeo.com by providing video url</li>
+<li>Video - Embed video from youtube.com, vimeo.com and dailymotion.com by providing video url</li>
 <li>Highlight Text - css styled highlight text</li>
 </ul>
 == Installation ==
