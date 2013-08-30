@@ -6,7 +6,7 @@ Requires at least 2.8
 Tested up to 3.6
 Stable tag: 1.0.3
 
-Shortcode press is fast and easiest way for use shortcodes within post or page content to show styled box, button,highlight text, Dropcap and video embed.
+Shortcode press is fast and easiest way to use shortcodes within post or page content for styled box, button,highlight text, Dropcap and video embed.
 
 == Description ==
 Using Shortcode Press, this plugin will allow you to easily insert message boxes, buttons, video and highlighted text into your WordPress posts and pages. You will find a tinymce Button on editor to use options, there are many configurations. All buttons, boxes, text highlighter, dropcap include multiple color and size options. For button here lots of icons to choose to fill your desire. For example, there is an down arrow icon that works great for download buttons, an tick icon for acceptance, info icon for define information, etc. You don't have to remember the shortcodes, can easily insert them from editor where a tinymce button extended for it. 
