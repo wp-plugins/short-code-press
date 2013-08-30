@@ -2012,3 +2012,39 @@ padding: 2px 5px;
         
         margin-bottom:2em;
         }
+.scp_dropcap {
+    color:#888888;
+    float:left;
+    font-size:3.571em;
+    line-height:0.76em;
+    padding:0.04em 0.12em 0 0;
+}
+
+/* Colors ---------- */
+    .scp_blue {
+    color: #2daebf;
+    }
+    .scp_red {
+    color: #e33100;
+    }
+    .scp_green {
+    color: #c3fad0;
+    }
+    .scp_magenta {
+    color: #a9014b;
+    }
+    .scp_orange {
+    color: #ff5c00;
+    }
+    .scp_yellow {
+    color: #ffb515;
+    }
+    .scp_black {
+    color: #222;
+    }
+    .scp_gray {
+    color: #333;
+    }
+    .scp_white {
+    color: #e1e1e1;
+    }        
