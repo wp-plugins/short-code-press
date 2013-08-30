@@ -195,6 +195,8 @@ TID;
         
         <li class="scp-item"><a href="admin.php?task=shortcodeoptions&shortcode=video" class="scoption block_video tooltip" title="Insert youtube, vimeo, dailymotion video">Embed Video</a></li>
         <li class="scp-item"><a href="admin.php?task=shortcodeoptions&shortcode=highlight" class="scoption block_highlight tooltip" title="Insert colorful highlighted text">Highlight Text</a></li>
+        
+        <li class="scp-item"><a href="admin.php?task=shortcodeoptions&shortcode=dropcap" class="scoption block_dropcap tooltip" title="DropCaps">DropCap</a></li> 
        
    </ul>
    

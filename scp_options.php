@@ -171,7 +171,20 @@ if($_GET[shortcode]=='box'){
         <?php }
         
         
-        ?>
+        else if($_GET[shortcode]=='dropcap'){ ?>
+        <div id="dropcap" class="scp_container">
+        <ul>
+    <li  class="align"><label>Text :</label> <input type="text" name="text" id="text" value=""></li>
+   </ul>
+    <ul>
+    <li  class="align"><label>Text Color :</label> <select id="txtcolor">
+        <?php 
+            echo $sc_color;
+        ?></select></li>
+   </ul>
+   
+   </div>
+        <?php }?>
         
 </fieldset>
 <input type="submit" id="addtopost" class="button button-primary" name="addtopost" value="Insert into post" />
@@ -201,6 +214,11 @@ if($_GET[shortcode]=='video'){   ?>
                     <?php
 if($_GET[shortcode]=='highlight'){   ?>                   
                     win.send_to_editor('[highlight  color="'+jQuery('#txtcolor').val()+'" align=""]'+jQuery('#text').val()+'[/highlight]');
+                    <?php } ?>
+                    
+                    <?php
+if($_GET[shortcode]=='dropcap'){   ?>                   
+                    win.send_to_editor('[dropcap  color="'+jQuery('#txtcolor').val()+'"]'+jQuery('#text').val()+'[/dropcap]');
                     <?php } ?>
                     
                     tinyMCEPopup.close();
